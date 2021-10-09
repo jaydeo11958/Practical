@@ -1,0 +1,37 @@
+div.b1{
+    height: 300px;
+    width: 300px;
+    margin-left: 50px ;
+    margin-top:50px;
+    background-color:lightgreen;
+  }
+div.b2{
+    height: 300px;
+    width: 300px;
+    margin-left:400px;
+    margin-top: -300px;
+    background-color: lightsalmon;
+  }
+div.b3{
+    height: 300px;
+    width: 300px;
+    margin-left:750px ;
+    margin-top:-300px;
+    background-color: lightblue;
+  }
+div{
+ width: 150px;
+    height: 150px;
+}
+#sqr1 {
+    margin: 0px 0px ;
+    background-color:red;
+}
+#sqr2 {
+    margin: 0px 150px ;
+    background-color: lightblue;
+}
+#sqr3 {
+    margin: 0px 300px ;
+    background-color: grey;
+}
