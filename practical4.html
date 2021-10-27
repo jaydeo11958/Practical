@@ -1,0 +1,68 @@
+<html lang="en" dir="ltr"><head>
+  <meta charset="utf-8">
+  <title>Practical 4</title>
+</head>
+
+<body>
+<style>
+  body {
+  background-color:lightsalmon;}
+</style>
+  <center>
+    <h1>Give your Review</h1>
+    <hr size='5px'>
+    <br>
+    <br>
+    <br>
+
+    <form action="mailto:jaydeo2002@gmail.com" method="post" enctype="text/plain">
+      <label for="name"><b>Enter your Name:</b></label>
+      <input type="text" id="name" name="name" value="">
+      <br>
+      <br>
+
+      <label for="phone"><b>Enter your phone number:</b></label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{5}-[0-9]{5}">
+      <br>
+      <br>
+
+      <label for="Poems"><b>Which Poem do you like the most:</b></label>
+      <select id="Poem" name="Poem">
+        <option value="select">Select</option>
+        <option value="Khamoshi">Khamoshi</option>
+        <option value="Kuch Baate">Kuch Baate</option>
+        <option value="Sawan ka Mahinaa">Sawan ka Mahinaa</option>
+        <option value="Ghar Chal">Ghar Chal</option>
+      </select>
+      <br>
+      <br>
+
+      <label for="Favourite"><b>How many poems do you like:</b></label>
+      <input type="number" id="Favourite" name="Favourite" min="1" max="4" step="1">
+      <br>
+      <br>
+
+      <label for="date"><b>Date:</b></label>
+      <input type="date" id="date" name="date">
+      <br>
+      <br>
+      <br>
+
+      <p> Please give your review on these poems. <br>
+        <br><b>(Do not exceed 100 words)</b>
+      </p><p>
+        <textarea name="message" style="width:450px; height:200px;"> </textarea>
+        <br>
+        <br>
+        <br>
+
+        <input type="submit" name="" value="Send">
+        <input type="reset" value="Reset">
+
+    </p></form>
+    <a href="index.html">  Back to main page, click here </a> <br>
+  </center>
+
+
+
+</body></html>
